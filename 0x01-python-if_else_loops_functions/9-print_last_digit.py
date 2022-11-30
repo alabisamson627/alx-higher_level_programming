@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-# Author - Tolulope Fakunle
+
 
 def print_last_digit(number):
-print(abs(number) % 10, end="")
-return (abs(number) % 10)
-
+    """
+    Prints and returns the last digit of a number.
+    If given something that's not a number, this returns None.
+    """
+    number = (abs(number) % 10)
+    print("{}".format(number), end="")
+    return (int(number))

@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-# Author - Tolulope Fakunle
-for letter in range(97, 123):
-if char(letter) != 'q' and chr(letter) != 'e':
-print("{}".format(chr(letter)), end="")
-
+for i in list(
+        range(ord('a'), ord('e'))
+        ) + list(
+                range(ord('f'), ord('q'))
+                ) + list(
+                        range(ord('r'), ord('z') + 1)
+                        ):
+    print('{:c}'.format(i), end="")

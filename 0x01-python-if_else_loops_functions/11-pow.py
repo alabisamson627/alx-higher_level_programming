@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-# Author - Bamidele Adefolaju
+
+
 
 def pow(a, b):
-return (a ** b)
-
+    """ Computes a to the power of b and returns the result """
+    return (a ** b)
