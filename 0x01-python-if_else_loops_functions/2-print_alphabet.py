@@ -8,4 +8,3 @@ for i in list(
                         range(ord('r'), ord('z') + 1)
                         ):
     print('{:c}'.format(i), end="")
-
